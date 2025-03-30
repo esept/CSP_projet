@@ -1,0 +1,480 @@
+<instance format="XCSP3" type="CSP">
+  <variables>
+    <array id="vars" size="[34]"> 0..20 </array>
+  </variables>
+  <constraints>
+    <group>
+      <sum>
+        <list> %... </list>
+        <coeffs> 680 674 949 949 316 420 431 316 382 451 464 382 370 428 429 370 853 991 991 853 372 420 431 372 545 626 627 545 494 589 589 494 1017 1017 </coeffs>
+        <condition> (ge,%0) </condition>
+      </sum>
+      <args> 1114 eq(vars[0],0) eq(vars[1],0) eq(vars[2],0) eq(vars[3],0) eq(vars[4],0) eq(vars[5],0) eq(vars[6],0) eq(vars[7],0) eq(vars[8],0) eq(vars[9],0) eq(vars[10],0) eq(vars[11],0) eq(vars[12],0) eq(vars[13],0) eq(vars[14],0) eq(vars[15],0) eq(vars[16],0) eq(vars[17],0) eq(vars[18],0) eq(vars[19],0) eq(vars[20],0) eq(vars[21],0) eq(vars[22],0) eq(vars[23],0) eq(vars[24],0) eq(vars[25],0) eq(vars[26],0) eq(vars[27],0) eq(vars[28],0) eq(vars[29],0) eq(vars[30],0) eq(vars[31],0) eq(vars[32],0) eq(vars[33],0) </args>
+      <args> 979 eq(vars[0],1) eq(vars[1],1) eq(vars[2],1) eq(vars[3],1) eq(vars[4],1) eq(vars[5],1) eq(vars[6],1) eq(vars[7],1) eq(vars[8],1) eq(vars[9],1) eq(vars[10],1) eq(vars[11],1) eq(vars[12],1) eq(vars[13],1) eq(vars[14],1) eq(vars[15],1) eq(vars[16],1) eq(vars[17],1) eq(vars[18],1) eq(vars[19],1) eq(vars[20],1) eq(vars[21],1) eq(vars[22],1) eq(vars[23],1) eq(vars[24],1) eq(vars[25],1) eq(vars[26],1) eq(vars[27],1) eq(vars[28],1) eq(vars[29],1) eq(vars[30],1) eq(vars[31],1) eq(vars[32],1) eq(vars[33],1) </args>
+      <args> 1068 eq(vars[0],2) eq(vars[1],2) eq(vars[2],2) eq(vars[3],2) eq(vars[4],2) eq(vars[5],2) eq(vars[6],2) eq(vars[7],2) eq(vars[8],2) eq(vars[9],2) eq(vars[10],2) eq(vars[11],2) eq(vars[12],2) eq(vars[13],2) eq(vars[14],2) eq(vars[15],2) eq(vars[16],2) eq(vars[17],2) eq(vars[18],2) eq(vars[19],2) eq(vars[20],2) eq(vars[21],2) eq(vars[22],2) eq(vars[23],2) eq(vars[24],2) eq(vars[25],2) eq(vars[26],2) eq(vars[27],2) eq(vars[28],2) eq(vars[29],2) eq(vars[30],2) eq(vars[31],2) eq(vars[32],2) eq(vars[33],2) </args>
+      <args> 1267 eq(vars[0],3) eq(vars[1],3) eq(vars[2],3) eq(vars[3],3) eq(vars[4],3) eq(vars[5],3) eq(vars[6],3) eq(vars[7],3) eq(vars[8],3) eq(vars[9],3) eq(vars[10],3) eq(vars[11],3) eq(vars[12],3) eq(vars[13],3) eq(vars[14],3) eq(vars[15],3) eq(vars[16],3) eq(vars[17],3) eq(vars[18],3) eq(vars[19],3) eq(vars[20],3) eq(vars[21],3) eq(vars[22],3) eq(vars[23],3) eq(vars[24],3) eq(vars[25],3) eq(vars[26],3) eq(vars[27],3) eq(vars[28],3) eq(vars[29],3) eq(vars[30],3) eq(vars[31],3) eq(vars[32],3) eq(vars[33],3) </args>
+      <args> 381 eq(vars[0],4) eq(vars[1],4) eq(vars[2],4) eq(vars[3],4) eq(vars[4],4) eq(vars[5],4) eq(vars[6],4) eq(vars[7],4) eq(vars[8],4) eq(vars[9],4) eq(vars[10],4) eq(vars[11],4) eq(vars[12],4) eq(vars[13],4) eq(vars[14],4) eq(vars[15],4) eq(vars[16],4) eq(vars[17],4) eq(vars[18],4) eq(vars[19],4) eq(vars[20],4) eq(vars[21],4) eq(vars[22],4) eq(vars[23],4) eq(vars[24],4) eq(vars[25],4) eq(vars[26],4) eq(vars[27],4) eq(vars[28],4) eq(vars[29],4) eq(vars[30],4) eq(vars[31],4) eq(vars[32],4) eq(vars[33],4) </args>
+      <args> 508 eq(vars[0],5) eq(vars[1],5) eq(vars[2],5) eq(vars[3],5) eq(vars[4],5) eq(vars[5],5) eq(vars[6],5) eq(vars[7],5) eq(vars[8],5) eq(vars[9],5) eq(vars[10],5) eq(vars[11],5) eq(vars[12],5) eq(vars[13],5) eq(vars[14],5) eq(vars[15],5) eq(vars[16],5) eq(vars[17],5) eq(vars[18],5) eq(vars[19],5) eq(vars[20],5) eq(vars[21],5) eq(vars[22],5) eq(vars[23],5) eq(vars[24],5) eq(vars[25],5) eq(vars[26],5) eq(vars[27],5) eq(vars[28],5) eq(vars[29],5) eq(vars[30],5) eq(vars[31],5) eq(vars[32],5) eq(vars[33],5) </args>
+      <args> 581 eq(vars[0],6) eq(vars[1],6) eq(vars[2],6) eq(vars[3],6) eq(vars[4],6) eq(vars[5],6) eq(vars[6],6) eq(vars[7],6) eq(vars[8],6) eq(vars[9],6) eq(vars[10],6) eq(vars[11],6) eq(vars[12],6) eq(vars[13],6) eq(vars[14],6) eq(vars[15],6) eq(vars[16],6) eq(vars[17],6) eq(vars[18],6) eq(vars[19],6) eq(vars[20],6) eq(vars[21],6) eq(vars[22],6) eq(vars[23],6) eq(vars[24],6) eq(vars[25],6) eq(vars[26],6) eq(vars[27],6) eq(vars[28],6) eq(vars[29],6) eq(vars[30],6) eq(vars[31],6) eq(vars[32],6) eq(vars[33],6) </args>
+      <args> 557 eq(vars[0],7) eq(vars[1],7) eq(vars[2],7) eq(vars[3],7) eq(vars[4],7) eq(vars[5],7) eq(vars[6],7) eq(vars[7],7) eq(vars[8],7) eq(vars[9],7) eq(vars[10],7) eq(vars[11],7) eq(vars[12],7) eq(vars[13],7) eq(vars[14],7) eq(vars[15],7) eq(vars[16],7) eq(vars[17],7) eq(vars[18],7) eq(vars[19],7) eq(vars[20],7) eq(vars[21],7) eq(vars[22],7) eq(vars[23],7) eq(vars[24],7) eq(vars[25],7) eq(vars[26],7) eq(vars[27],7) eq(vars[28],7) eq(vars[29],7) eq(vars[30],7) eq(vars[31],7) eq(vars[32],7) eq(vars[33],7) </args>
+      <args> 720 eq(vars[0],8) eq(vars[1],8) eq(vars[2],8) eq(vars[3],8) eq(vars[4],8) eq(vars[5],8) eq(vars[6],8) eq(vars[7],8) eq(vars[8],8) eq(vars[9],8) eq(vars[10],8) eq(vars[11],8) eq(vars[12],8) eq(vars[13],8) eq(vars[14],8) eq(vars[15],8) eq(vars[16],8) eq(vars[17],8) eq(vars[18],8) eq(vars[19],8) eq(vars[20],8) eq(vars[21],8) eq(vars[22],8) eq(vars[23],8) eq(vars[24],8) eq(vars[25],8) eq(vars[26],8) eq(vars[27],8) eq(vars[28],8) eq(vars[29],8) eq(vars[30],8) eq(vars[31],8) eq(vars[32],8) eq(vars[33],8) </args>
+      <args> 1273 eq(vars[0],9) eq(vars[1],9) eq(vars[2],9) eq(vars[3],9) eq(vars[4],9) eq(vars[5],9) eq(vars[6],9) eq(vars[7],9) eq(vars[8],9) eq(vars[9],9) eq(vars[10],9) eq(vars[11],9) eq(vars[12],9) eq(vars[13],9) eq(vars[14],9) eq(vars[15],9) eq(vars[16],9) eq(vars[17],9) eq(vars[18],9) eq(vars[19],9) eq(vars[20],9) eq(vars[21],9) eq(vars[22],9) eq(vars[23],9) eq(vars[24],9) eq(vars[25],9) eq(vars[26],9) eq(vars[27],9) eq(vars[28],9) eq(vars[29],9) eq(vars[30],9) eq(vars[31],9) eq(vars[32],9) eq(vars[33],9) </args>
+      <args> 593 eq(vars[0],10) eq(vars[1],10) eq(vars[2],10) eq(vars[3],10) eq(vars[4],10) eq(vars[5],10) eq(vars[6],10) eq(vars[7],10) eq(vars[8],10) eq(vars[9],10) eq(vars[10],10) eq(vars[11],10) eq(vars[12],10) eq(vars[13],10) eq(vars[14],10) eq(vars[15],10) eq(vars[16],10) eq(vars[17],10) eq(vars[18],10) eq(vars[19],10) eq(vars[20],10) eq(vars[21],10) eq(vars[22],10) eq(vars[23],10) eq(vars[24],10) eq(vars[25],10) eq(vars[26],10) eq(vars[27],10) eq(vars[28],10) eq(vars[29],10) eq(vars[30],10) eq(vars[31],10) eq(vars[32],10) eq(vars[33],10) </args>
+      <args> 594 eq(vars[0],11) eq(vars[1],11) eq(vars[2],11) eq(vars[3],11) eq(vars[4],11) eq(vars[5],11) eq(vars[6],11) eq(vars[7],11) eq(vars[8],11) eq(vars[9],11) eq(vars[10],11) eq(vars[11],11) eq(vars[12],11) eq(vars[13],11) eq(vars[14],11) eq(vars[15],11) eq(vars[16],11) eq(vars[17],11) eq(vars[18],11) eq(vars[19],11) eq(vars[20],11) eq(vars[21],11) eq(vars[22],11) eq(vars[23],11) eq(vars[24],11) eq(vars[25],11) eq(vars[26],11) eq(vars[27],11) eq(vars[28],11) eq(vars[29],11) eq(vars[30],11) eq(vars[31],11) eq(vars[32],11) eq(vars[33],11) </args>
+      <args> 793 eq(vars[0],12) eq(vars[1],12) eq(vars[2],12) eq(vars[3],12) eq(vars[4],12) eq(vars[5],12) eq(vars[6],12) eq(vars[7],12) eq(vars[8],12) eq(vars[9],12) eq(vars[10],12) eq(vars[11],12) eq(vars[12],12) eq(vars[13],12) eq(vars[14],12) eq(vars[15],12) eq(vars[16],12) eq(vars[17],12) eq(vars[18],12) eq(vars[19],12) eq(vars[20],12) eq(vars[21],12) eq(vars[22],12) eq(vars[23],12) eq(vars[24],12) eq(vars[25],12) eq(vars[26],12) eq(vars[27],12) eq(vars[28],12) eq(vars[29],12) eq(vars[30],12) eq(vars[31],12) eq(vars[32],12) eq(vars[33],12) </args>
+      <args> 450 eq(vars[0],13) eq(vars[1],13) eq(vars[2],13) eq(vars[3],13) eq(vars[4],13) eq(vars[5],13) eq(vars[6],13) eq(vars[7],13) eq(vars[8],13) eq(vars[9],13) eq(vars[10],13) eq(vars[11],13) eq(vars[12],13) eq(vars[13],13) eq(vars[14],13) eq(vars[15],13) eq(vars[16],13) eq(vars[17],13) eq(vars[18],13) eq(vars[19],13) eq(vars[20],13) eq(vars[21],13) eq(vars[22],13) eq(vars[23],13) eq(vars[24],13) eq(vars[25],13) eq(vars[26],13) eq(vars[27],13) eq(vars[28],13) eq(vars[29],13) eq(vars[30],13) eq(vars[31],13) eq(vars[32],13) eq(vars[33],13) </args>
+      <args> 826 eq(vars[0],14) eq(vars[1],14) eq(vars[2],14) eq(vars[3],14) eq(vars[4],14) eq(vars[5],14) eq(vars[6],14) eq(vars[7],14) eq(vars[8],14) eq(vars[9],14) eq(vars[10],14) eq(vars[11],14) eq(vars[12],14) eq(vars[13],14) eq(vars[14],14) eq(vars[15],14) eq(vars[16],14) eq(vars[17],14) eq(vars[18],14) eq(vars[19],14) eq(vars[20],14) eq(vars[21],14) eq(vars[22],14) eq(vars[23],14) eq(vars[24],14) eq(vars[25],14) eq(vars[26],14) eq(vars[27],14) eq(vars[28],14) eq(vars[29],14) eq(vars[30],14) eq(vars[31],14) eq(vars[32],14) eq(vars[33],14) </args>
+      <args> 1491 eq(vars[0],15) eq(vars[1],15) eq(vars[2],15) eq(vars[3],15) eq(vars[4],15) eq(vars[5],15) eq(vars[6],15) eq(vars[7],15) eq(vars[8],15) eq(vars[9],15) eq(vars[10],15) eq(vars[11],15) eq(vars[12],15) eq(vars[13],15) eq(vars[14],15) eq(vars[15],15) eq(vars[16],15) eq(vars[17],15) eq(vars[18],15) eq(vars[19],15) eq(vars[20],15) eq(vars[21],15) eq(vars[22],15) eq(vars[23],15) eq(vars[24],15) eq(vars[25],15) eq(vars[26],15) eq(vars[27],15) eq(vars[28],15) eq(vars[29],15) eq(vars[30],15) eq(vars[31],15) eq(vars[32],15) eq(vars[33],15) </args>
+      <args> 1527 eq(vars[0],16) eq(vars[1],16) eq(vars[2],16) eq(vars[3],16) eq(vars[4],16) eq(vars[5],16) eq(vars[6],16) eq(vars[7],16) eq(vars[8],16) eq(vars[9],16) eq(vars[10],16) eq(vars[11],16) eq(vars[12],16) eq(vars[13],16) eq(vars[14],16) eq(vars[15],16) eq(vars[16],16) eq(vars[17],16) eq(vars[18],16) eq(vars[19],16) eq(vars[20],16) eq(vars[21],16) eq(vars[22],16) eq(vars[23],16) eq(vars[24],16) eq(vars[25],16) eq(vars[26],16) eq(vars[27],16) eq(vars[28],16) eq(vars[29],16) eq(vars[30],16) eq(vars[31],16) eq(vars[32],16) eq(vars[33],16) </args>
+      <args> 701 eq(vars[0],17) eq(vars[1],17) eq(vars[2],17) eq(vars[3],17) eq(vars[4],17) eq(vars[5],17) eq(vars[6],17) eq(vars[7],17) eq(vars[8],17) eq(vars[9],17) eq(vars[10],17) eq(vars[11],17) eq(vars[12],17) eq(vars[13],17) eq(vars[14],17) eq(vars[15],17) eq(vars[16],17) eq(vars[17],17) eq(vars[18],17) eq(vars[19],17) eq(vars[20],17) eq(vars[21],17) eq(vars[22],17) eq(vars[23],17) eq(vars[24],17) eq(vars[25],17) eq(vars[26],17) eq(vars[27],17) eq(vars[28],17) eq(vars[29],17) eq(vars[30],17) eq(vars[31],17) eq(vars[32],17) eq(vars[33],17) </args>
+      <args> 673 eq(vars[0],18) eq(vars[1],18) eq(vars[2],18) eq(vars[3],18) eq(vars[4],18) eq(vars[5],18) eq(vars[6],18) eq(vars[7],18) eq(vars[8],18) eq(vars[9],18) eq(vars[10],18) eq(vars[11],18) eq(vars[12],18) eq(vars[13],18) eq(vars[14],18) eq(vars[15],18) eq(vars[16],18) eq(vars[17],18) eq(vars[18],18) eq(vars[19],18) eq(vars[20],18) eq(vars[21],18) eq(vars[22],18) eq(vars[23],18) eq(vars[24],18) eq(vars[25],18) eq(vars[26],18) eq(vars[27],18) eq(vars[28],18) eq(vars[29],18) eq(vars[30],18) eq(vars[31],18) eq(vars[32],18) eq(vars[33],18) </args>
+      <args> 552 eq(vars[0],19) eq(vars[1],19) eq(vars[2],19) eq(vars[3],19) eq(vars[4],19) eq(vars[5],19) eq(vars[6],19) eq(vars[7],19) eq(vars[8],19) eq(vars[9],19) eq(vars[10],19) eq(vars[11],19) eq(vars[12],19) eq(vars[13],19) eq(vars[14],19) eq(vars[15],19) eq(vars[16],19) eq(vars[17],19) eq(vars[18],19) eq(vars[19],19) eq(vars[20],19) eq(vars[21],19) eq(vars[22],19) eq(vars[23],19) eq(vars[24],19) eq(vars[25],19) eq(vars[26],19) eq(vars[27],19) eq(vars[28],19) eq(vars[29],19) eq(vars[30],19) eq(vars[31],19) eq(vars[32],19) eq(vars[33],19) </args>
+    </group>
+    <group>
+      <intension> ne(%0,%1) </intension>
+      <args> vars[0] 0 </args>
+      <args> vars[0] 9 </args>
+      <args> vars[0] 12 </args>
+      <args> vars[1] 0 </args>
+      <args> vars[1] 9 </args>
+      <args> vars[1] 12 </args>
+      <args> vars[2] 0 </args>
+      <args> vars[2] 9 </args>
+      <args> vars[2] 12 </args>
+      <args> vars[3] 0 </args>
+      <args> vars[3] 9 </args>
+      <args> vars[3] 12 </args>
+      <args> vars[4] 0 </args>
+      <args> vars[4] 9 </args>
+      <args> vars[4] 12 </args>
+      <args> vars[7] 0 </args>
+      <args> vars[7] 9 </args>
+      <args> vars[7] 12 </args>
+      <args> vars[8] 0 </args>
+      <args> vars[8] 9 </args>
+      <args> vars[8] 12 </args>
+      <args> vars[9] 0 </args>
+      <args> vars[9] 9 </args>
+      <args> vars[9] 12 </args>
+      <args> vars[11] 0 </args>
+      <args> vars[11] 9 </args>
+      <args> vars[11] 12 </args>
+      <args> vars[12] 0 </args>
+      <args> vars[12] 9 </args>
+      <args> vars[12] 12 </args>
+      <args> vars[15] 0 </args>
+      <args> vars[15] 9 </args>
+      <args> vars[15] 12 </args>
+      <args> vars[16] 0 </args>
+      <args> vars[16] 9 </args>
+      <args> vars[16] 12 </args>
+      <args> vars[19] 0 </args>
+      <args> vars[19] 9 </args>
+      <args> vars[19] 12 </args>
+      <args> vars[20] 0 </args>
+      <args> vars[20] 9 </args>
+      <args> vars[20] 12 </args>
+      <args> vars[23] 0 </args>
+      <args> vars[23] 9 </args>
+      <args> vars[23] 12 </args>
+      <args> vars[24] 0 </args>
+      <args> vars[24] 9 </args>
+      <args> vars[24] 12 </args>
+      <args> vars[27] 0 </args>
+      <args> vars[27] 9 </args>
+      <args> vars[27] 12 </args>
+      <args> vars[28] 0 </args>
+      <args> vars[28] 9 </args>
+      <args> vars[28] 12 </args>
+      <args> vars[31] 0 </args>
+      <args> vars[31] 9 </args>
+      <args> vars[31] 12 </args>
+      <args> vars[32] 0 </args>
+      <args> vars[32] 9 </args>
+      <args> vars[32] 12 </args>
+    </group>
+    <group>
+      <intension> or(ne(%0,%1),ne(%2,%3)) </intension>
+      <args> vars[0] 4 vars[1] 14 </args>
+      <args> vars[0] 4 vars[2] 14 </args>
+      <args> vars[1] 4 vars[0] 14 </args>
+      <args> vars[1] 4 vars[3] 14 </args>
+      <args> vars[2] 4 vars[0] 14 </args>
+      <args> vars[2] 4 vars[3] 14 </args>
+      <args> vars[3] 4 vars[1] 14 </args>
+      <args> vars[3] 4 vars[2] 14 </args>
+      <args> vars[4] 4 vars[5] 14 </args>
+      <args> vars[4] 4 vars[8] 14 </args>
+      <args> vars[5] 4 vars[4] 14 </args>
+      <args> vars[5] 4 vars[6] 14 </args>
+      <args> vars[5] 4 vars[9] 14 </args>
+      <args> vars[6] 4 vars[5] 14 </args>
+      <args> vars[6] 4 vars[7] 14 </args>
+      <args> vars[6] 4 vars[10] 14 </args>
+      <args> vars[7] 4 vars[6] 14 </args>
+      <args> vars[7] 4 vars[11] 14 </args>
+      <args> vars[8] 4 vars[4] 14 </args>
+      <args> vars[8] 4 vars[9] 14 </args>
+      <args> vars[8] 4 vars[12] 14 </args>
+      <args> vars[9] 4 vars[5] 14 </args>
+      <args> vars[9] 4 vars[8] 14 </args>
+      <args> vars[9] 4 vars[10] 14 </args>
+      <args> vars[9] 4 vars[13] 14 </args>
+      <args> vars[10] 4 vars[6] 14 </args>
+      <args> vars[10] 4 vars[9] 14 </args>
+      <args> vars[10] 4 vars[11] 14 </args>
+      <args> vars[10] 4 vars[14] 14 </args>
+      <args> vars[11] 4 vars[7] 14 </args>
+      <args> vars[11] 4 vars[10] 14 </args>
+      <args> vars[11] 4 vars[15] 14 </args>
+      <args> vars[12] 4 vars[8] 14 </args>
+      <args> vars[12] 4 vars[13] 14 </args>
+      <args> vars[13] 4 vars[9] 14 </args>
+      <args> vars[13] 4 vars[12] 14 </args>
+      <args> vars[13] 4 vars[14] 14 </args>
+      <args> vars[14] 4 vars[10] 14 </args>
+      <args> vars[14] 4 vars[13] 14 </args>
+      <args> vars[14] 4 vars[15] 14 </args>
+      <args> vars[15] 4 vars[11] 14 </args>
+      <args> vars[15] 4 vars[14] 14 </args>
+      <args> vars[16] 4 vars[17] 14 </args>
+      <args> vars[17] 4 vars[16] 14 </args>
+      <args> vars[17] 4 vars[18] 14 </args>
+      <args> vars[18] 4 vars[17] 14 </args>
+      <args> vars[18] 4 vars[19] 14 </args>
+      <args> vars[19] 4 vars[18] 14 </args>
+      <args> vars[20] 4 vars[21] 14 </args>
+      <args> vars[20] 4 vars[24] 14 </args>
+      <args> vars[21] 4 vars[20] 14 </args>
+      <args> vars[21] 4 vars[22] 14 </args>
+      <args> vars[21] 4 vars[25] 14 </args>
+      <args> vars[22] 4 vars[21] 14 </args>
+      <args> vars[22] 4 vars[23] 14 </args>
+      <args> vars[22] 4 vars[26] 14 </args>
+      <args> vars[23] 4 vars[22] 14 </args>
+      <args> vars[23] 4 vars[27] 14 </args>
+      <args> vars[24] 4 vars[20] 14 </args>
+      <args> vars[24] 4 vars[25] 14 </args>
+      <args> vars[25] 4 vars[21] 14 </args>
+      <args> vars[25] 4 vars[24] 14 </args>
+      <args> vars[25] 4 vars[26] 14 </args>
+      <args> vars[26] 4 vars[22] 14 </args>
+      <args> vars[26] 4 vars[25] 14 </args>
+      <args> vars[26] 4 vars[27] 14 </args>
+      <args> vars[27] 4 vars[23] 14 </args>
+      <args> vars[27] 4 vars[26] 14 </args>
+      <args> vars[28] 4 vars[29] 14 </args>
+      <args> vars[29] 4 vars[28] 14 </args>
+      <args> vars[29] 4 vars[30] 14 </args>
+      <args> vars[30] 4 vars[29] 14 </args>
+      <args> vars[30] 4 vars[31] 14 </args>
+      <args> vars[31] 4 vars[30] 14 </args>
+      <args> vars[32] 4 vars[33] 14 </args>
+      <args> vars[33] 4 vars[32] 14 </args>
+      <args> vars[0] 13 vars[1] 17 </args>
+      <args> vars[0] 13 vars[2] 17 </args>
+      <args> vars[1] 13 vars[0] 17 </args>
+      <args> vars[1] 13 vars[3] 17 </args>
+      <args> vars[2] 13 vars[0] 17 </args>
+      <args> vars[2] 13 vars[3] 17 </args>
+      <args> vars[3] 13 vars[1] 17 </args>
+      <args> vars[3] 13 vars[2] 17 </args>
+      <args> vars[4] 13 vars[5] 17 </args>
+      <args> vars[4] 13 vars[8] 17 </args>
+      <args> vars[5] 13 vars[4] 17 </args>
+      <args> vars[5] 13 vars[6] 17 </args>
+      <args> vars[5] 13 vars[9] 17 </args>
+      <args> vars[6] 13 vars[5] 17 </args>
+      <args> vars[6] 13 vars[7] 17 </args>
+      <args> vars[6] 13 vars[10] 17 </args>
+      <args> vars[7] 13 vars[6] 17 </args>
+      <args> vars[7] 13 vars[11] 17 </args>
+      <args> vars[8] 13 vars[4] 17 </args>
+      <args> vars[8] 13 vars[9] 17 </args>
+      <args> vars[8] 13 vars[12] 17 </args>
+      <args> vars[9] 13 vars[5] 17 </args>
+      <args> vars[9] 13 vars[8] 17 </args>
+      <args> vars[9] 13 vars[10] 17 </args>
+      <args> vars[9] 13 vars[13] 17 </args>
+      <args> vars[10] 13 vars[6] 17 </args>
+      <args> vars[10] 13 vars[9] 17 </args>
+      <args> vars[10] 13 vars[11] 17 </args>
+      <args> vars[10] 13 vars[14] 17 </args>
+      <args> vars[11] 13 vars[7] 17 </args>
+      <args> vars[11] 13 vars[10] 17 </args>
+      <args> vars[11] 13 vars[15] 17 </args>
+      <args> vars[12] 13 vars[8] 17 </args>
+      <args> vars[12] 13 vars[13] 17 </args>
+      <args> vars[13] 13 vars[9] 17 </args>
+      <args> vars[13] 13 vars[12] 17 </args>
+      <args> vars[13] 13 vars[14] 17 </args>
+      <args> vars[14] 13 vars[10] 17 </args>
+      <args> vars[14] 13 vars[13] 17 </args>
+      <args> vars[14] 13 vars[15] 17 </args>
+      <args> vars[15] 13 vars[11] 17 </args>
+      <args> vars[15] 13 vars[14] 17 </args>
+      <args> vars[16] 13 vars[17] 17 </args>
+      <args> vars[17] 13 vars[16] 17 </args>
+      <args> vars[17] 13 vars[18] 17 </args>
+      <args> vars[18] 13 vars[17] 17 </args>
+      <args> vars[18] 13 vars[19] 17 </args>
+      <args> vars[19] 13 vars[18] 17 </args>
+      <args> vars[20] 13 vars[21] 17 </args>
+      <args> vars[20] 13 vars[24] 17 </args>
+      <args> vars[21] 13 vars[20] 17 </args>
+      <args> vars[21] 13 vars[22] 17 </args>
+      <args> vars[21] 13 vars[25] 17 </args>
+      <args> vars[22] 13 vars[21] 17 </args>
+      <args> vars[22] 13 vars[23] 17 </args>
+      <args> vars[22] 13 vars[26] 17 </args>
+      <args> vars[23] 13 vars[22] 17 </args>
+      <args> vars[23] 13 vars[27] 17 </args>
+      <args> vars[24] 13 vars[20] 17 </args>
+      <args> vars[24] 13 vars[25] 17 </args>
+      <args> vars[25] 13 vars[21] 17 </args>
+      <args> vars[25] 13 vars[24] 17 </args>
+      <args> vars[25] 13 vars[26] 17 </args>
+      <args> vars[26] 13 vars[22] 17 </args>
+      <args> vars[26] 13 vars[25] 17 </args>
+      <args> vars[26] 13 vars[27] 17 </args>
+      <args> vars[27] 13 vars[23] 17 </args>
+      <args> vars[27] 13 vars[26] 17 </args>
+      <args> vars[28] 13 vars[29] 17 </args>
+      <args> vars[29] 13 vars[28] 17 </args>
+      <args> vars[29] 13 vars[30] 17 </args>
+      <args> vars[30] 13 vars[29] 17 </args>
+      <args> vars[30] 13 vars[31] 17 </args>
+      <args> vars[31] 13 vars[30] 17 </args>
+      <args> vars[32] 13 vars[33] 17 </args>
+      <args> vars[33] 13 vars[32] 17 </args>
+      <args> vars[0] 14 vars[1] 17 </args>
+      <args> vars[0] 14 vars[2] 17 </args>
+      <args> vars[1] 14 vars[0] 17 </args>
+      <args> vars[1] 14 vars[3] 17 </args>
+      <args> vars[2] 14 vars[0] 17 </args>
+      <args> vars[2] 14 vars[3] 17 </args>
+      <args> vars[3] 14 vars[1] 17 </args>
+      <args> vars[3] 14 vars[2] 17 </args>
+      <args> vars[4] 14 vars[5] 17 </args>
+      <args> vars[4] 14 vars[8] 17 </args>
+      <args> vars[5] 14 vars[4] 17 </args>
+      <args> vars[5] 14 vars[6] 17 </args>
+      <args> vars[5] 14 vars[9] 17 </args>
+      <args> vars[6] 14 vars[5] 17 </args>
+      <args> vars[6] 14 vars[7] 17 </args>
+      <args> vars[6] 14 vars[10] 17 </args>
+      <args> vars[7] 14 vars[6] 17 </args>
+      <args> vars[7] 14 vars[11] 17 </args>
+      <args> vars[8] 14 vars[4] 17 </args>
+      <args> vars[8] 14 vars[9] 17 </args>
+      <args> vars[8] 14 vars[12] 17 </args>
+      <args> vars[9] 14 vars[5] 17 </args>
+      <args> vars[9] 14 vars[8] 17 </args>
+      <args> vars[9] 14 vars[10] 17 </args>
+      <args> vars[9] 14 vars[13] 17 </args>
+      <args> vars[10] 14 vars[6] 17 </args>
+      <args> vars[10] 14 vars[9] 17 </args>
+      <args> vars[10] 14 vars[11] 17 </args>
+      <args> vars[10] 14 vars[14] 17 </args>
+      <args> vars[11] 14 vars[7] 17 </args>
+      <args> vars[11] 14 vars[10] 17 </args>
+      <args> vars[11] 14 vars[15] 17 </args>
+      <args> vars[12] 14 vars[8] 17 </args>
+      <args> vars[12] 14 vars[13] 17 </args>
+      <args> vars[13] 14 vars[9] 17 </args>
+      <args> vars[13] 14 vars[12] 17 </args>
+      <args> vars[13] 14 vars[14] 17 </args>
+      <args> vars[14] 14 vars[10] 17 </args>
+      <args> vars[14] 14 vars[13] 17 </args>
+      <args> vars[14] 14 vars[15] 17 </args>
+      <args> vars[15] 14 vars[11] 17 </args>
+      <args> vars[15] 14 vars[14] 17 </args>
+      <args> vars[16] 14 vars[17] 17 </args>
+      <args> vars[17] 14 vars[16] 17 </args>
+      <args> vars[17] 14 vars[18] 17 </args>
+      <args> vars[18] 14 vars[17] 17 </args>
+      <args> vars[18] 14 vars[19] 17 </args>
+      <args> vars[19] 14 vars[18] 17 </args>
+      <args> vars[20] 14 vars[21] 17 </args>
+      <args> vars[20] 14 vars[24] 17 </args>
+      <args> vars[21] 14 vars[20] 17 </args>
+      <args> vars[21] 14 vars[22] 17 </args>
+      <args> vars[21] 14 vars[25] 17 </args>
+      <args> vars[22] 14 vars[21] 17 </args>
+      <args> vars[22] 14 vars[23] 17 </args>
+      <args> vars[22] 14 vars[26] 17 </args>
+      <args> vars[23] 14 vars[22] 17 </args>
+      <args> vars[23] 14 vars[27] 17 </args>
+      <args> vars[24] 14 vars[20] 17 </args>
+      <args> vars[24] 14 vars[25] 17 </args>
+      <args> vars[25] 14 vars[21] 17 </args>
+      <args> vars[25] 14 vars[24] 17 </args>
+      <args> vars[25] 14 vars[26] 17 </args>
+      <args> vars[26] 14 vars[22] 17 </args>
+      <args> vars[26] 14 vars[25] 17 </args>
+      <args> vars[26] 14 vars[27] 17 </args>
+      <args> vars[27] 14 vars[23] 17 </args>
+      <args> vars[27] 14 vars[26] 17 </args>
+      <args> vars[28] 14 vars[29] 17 </args>
+      <args> vars[29] 14 vars[28] 17 </args>
+      <args> vars[29] 14 vars[30] 17 </args>
+      <args> vars[30] 14 vars[29] 17 </args>
+      <args> vars[30] 14 vars[31] 17 </args>
+      <args> vars[31] 14 vars[30] 17 </args>
+      <args> vars[32] 14 vars[33] 17 </args>
+      <args> vars[33] 14 vars[32] 17 </args>
+      <args> vars[0] 14 vars[1] 19 </args>
+      <args> vars[0] 14 vars[2] 19 </args>
+      <args> vars[1] 14 vars[0] 19 </args>
+      <args> vars[1] 14 vars[3] 19 </args>
+      <args> vars[2] 14 vars[0] 19 </args>
+      <args> vars[2] 14 vars[3] 19 </args>
+      <args> vars[3] 14 vars[1] 19 </args>
+      <args> vars[3] 14 vars[2] 19 </args>
+      <args> vars[4] 14 vars[5] 19 </args>
+      <args> vars[4] 14 vars[8] 19 </args>
+      <args> vars[5] 14 vars[4] 19 </args>
+      <args> vars[5] 14 vars[6] 19 </args>
+      <args> vars[5] 14 vars[9] 19 </args>
+      <args> vars[6] 14 vars[5] 19 </args>
+      <args> vars[6] 14 vars[7] 19 </args>
+      <args> vars[6] 14 vars[10] 19 </args>
+      <args> vars[7] 14 vars[6] 19 </args>
+      <args> vars[7] 14 vars[11] 19 </args>
+      <args> vars[8] 14 vars[4] 19 </args>
+      <args> vars[8] 14 vars[9] 19 </args>
+      <args> vars[8] 14 vars[12] 19 </args>
+      <args> vars[9] 14 vars[5] 19 </args>
+      <args> vars[9] 14 vars[8] 19 </args>
+      <args> vars[9] 14 vars[10] 19 </args>
+      <args> vars[9] 14 vars[13] 19 </args>
+      <args> vars[10] 14 vars[6] 19 </args>
+      <args> vars[10] 14 vars[9] 19 </args>
+      <args> vars[10] 14 vars[11] 19 </args>
+      <args> vars[10] 14 vars[14] 19 </args>
+      <args> vars[11] 14 vars[7] 19 </args>
+      <args> vars[11] 14 vars[10] 19 </args>
+      <args> vars[11] 14 vars[15] 19 </args>
+      <args> vars[12] 14 vars[8] 19 </args>
+      <args> vars[12] 14 vars[13] 19 </args>
+      <args> vars[13] 14 vars[9] 19 </args>
+      <args> vars[13] 14 vars[12] 19 </args>
+      <args> vars[13] 14 vars[14] 19 </args>
+      <args> vars[14] 14 vars[10] 19 </args>
+      <args> vars[14] 14 vars[13] 19 </args>
+      <args> vars[14] 14 vars[15] 19 </args>
+      <args> vars[15] 14 vars[11] 19 </args>
+      <args> vars[15] 14 vars[14] 19 </args>
+      <args> vars[16] 14 vars[17] 19 </args>
+      <args> vars[17] 14 vars[16] 19 </args>
+      <args> vars[17] 14 vars[18] 19 </args>
+      <args> vars[18] 14 vars[17] 19 </args>
+      <args> vars[18] 14 vars[19] 19 </args>
+      <args> vars[19] 14 vars[18] 19 </args>
+      <args> vars[20] 14 vars[21] 19 </args>
+      <args> vars[20] 14 vars[24] 19 </args>
+      <args> vars[21] 14 vars[20] 19 </args>
+      <args> vars[21] 14 vars[22] 19 </args>
+      <args> vars[21] 14 vars[25] 19 </args>
+      <args> vars[22] 14 vars[21] 19 </args>
+      <args> vars[22] 14 vars[23] 19 </args>
+      <args> vars[22] 14 vars[26] 19 </args>
+      <args> vars[23] 14 vars[22] 19 </args>
+      <args> vars[23] 14 vars[27] 19 </args>
+      <args> vars[24] 14 vars[20] 19 </args>
+      <args> vars[24] 14 vars[25] 19 </args>
+      <args> vars[25] 14 vars[21] 19 </args>
+      <args> vars[25] 14 vars[24] 19 </args>
+      <args> vars[25] 14 vars[26] 19 </args>
+      <args> vars[26] 14 vars[22] 19 </args>
+      <args> vars[26] 14 vars[25] 19 </args>
+      <args> vars[26] 14 vars[27] 19 </args>
+      <args> vars[27] 14 vars[23] 19 </args>
+      <args> vars[27] 14 vars[26] 19 </args>
+      <args> vars[28] 14 vars[29] 19 </args>
+      <args> vars[29] 14 vars[28] 19 </args>
+      <args> vars[29] 14 vars[30] 19 </args>
+      <args> vars[30] 14 vars[29] 19 </args>
+      <args> vars[30] 14 vars[31] 19 </args>
+      <args> vars[31] 14 vars[30] 19 </args>
+      <args> vars[32] 14 vars[33] 19 </args>
+      <args> vars[33] 14 vars[32] 19 </args>
+      <args> vars[0] 15 vars[1] 17 </args>
+      <args> vars[0] 15 vars[2] 17 </args>
+      <args> vars[1] 15 vars[0] 17 </args>
+      <args> vars[1] 15 vars[3] 17 </args>
+      <args> vars[2] 15 vars[0] 17 </args>
+      <args> vars[2] 15 vars[3] 17 </args>
+      <args> vars[3] 15 vars[1] 17 </args>
+      <args> vars[3] 15 vars[2] 17 </args>
+      <args> vars[4] 15 vars[5] 17 </args>
+      <args> vars[4] 15 vars[8] 17 </args>
+      <args> vars[5] 15 vars[4] 17 </args>
+      <args> vars[5] 15 vars[6] 17 </args>
+      <args> vars[5] 15 vars[9] 17 </args>
+      <args> vars[6] 15 vars[5] 17 </args>
+      <args> vars[6] 15 vars[7] 17 </args>
+      <args> vars[6] 15 vars[10] 17 </args>
+      <args> vars[7] 15 vars[6] 17 </args>
+      <args> vars[7] 15 vars[11] 17 </args>
+      <args> vars[8] 15 vars[4] 17 </args>
+      <args> vars[8] 15 vars[9] 17 </args>
+      <args> vars[8] 15 vars[12] 17 </args>
+      <args> vars[9] 15 vars[5] 17 </args>
+      <args> vars[9] 15 vars[8] 17 </args>
+      <args> vars[9] 15 vars[10] 17 </args>
+      <args> vars[9] 15 vars[13] 17 </args>
+      <args> vars[10] 15 vars[6] 17 </args>
+      <args> vars[10] 15 vars[9] 17 </args>
+      <args> vars[10] 15 vars[11] 17 </args>
+      <args> vars[10] 15 vars[14] 17 </args>
+      <args> vars[11] 15 vars[7] 17 </args>
+      <args> vars[11] 15 vars[10] 17 </args>
+      <args> vars[11] 15 vars[15] 17 </args>
+      <args> vars[12] 15 vars[8] 17 </args>
+      <args> vars[12] 15 vars[13] 17 </args>
+      <args> vars[13] 15 vars[9] 17 </args>
+      <args> vars[13] 15 vars[12] 17 </args>
+      <args> vars[13] 15 vars[14] 17 </args>
+      <args> vars[14] 15 vars[10] 17 </args>
+      <args> vars[14] 15 vars[13] 17 </args>
+      <args> vars[14] 15 vars[15] 17 </args>
+      <args> vars[15] 15 vars[11] 17 </args>
+      <args> vars[15] 15 vars[14] 17 </args>
+      <args> vars[16] 15 vars[17] 17 </args>
+      <args> vars[17] 15 vars[16] 17 </args>
+      <args> vars[17] 15 vars[18] 17 </args>
+      <args> vars[18] 15 vars[17] 17 </args>
+      <args> vars[18] 15 vars[19] 17 </args>
+      <args> vars[19] 15 vars[18] 17 </args>
+      <args> vars[20] 15 vars[21] 17 </args>
+      <args> vars[20] 15 vars[24] 17 </args>
+      <args> vars[21] 15 vars[20] 17 </args>
+      <args> vars[21] 15 vars[22] 17 </args>
+      <args> vars[21] 15 vars[25] 17 </args>
+      <args> vars[22] 15 vars[21] 17 </args>
+      <args> vars[22] 15 vars[23] 17 </args>
+      <args> vars[22] 15 vars[26] 17 </args>
+      <args> vars[23] 15 vars[22] 17 </args>
+      <args> vars[23] 15 vars[27] 17 </args>
+      <args> vars[24] 15 vars[20] 17 </args>
+      <args> vars[24] 15 vars[25] 17 </args>
+      <args> vars[25] 15 vars[21] 17 </args>
+      <args> vars[25] 15 vars[24] 17 </args>
+      <args> vars[25] 15 vars[26] 17 </args>
+      <args> vars[26] 15 vars[22] 17 </args>
+      <args> vars[26] 15 vars[25] 17 </args>
+      <args> vars[26] 15 vars[27] 17 </args>
+      <args> vars[27] 15 vars[23] 17 </args>
+      <args> vars[27] 15 vars[26] 17 </args>
+      <args> vars[28] 15 vars[29] 17 </args>
+      <args> vars[29] 15 vars[28] 17 </args>
+      <args> vars[29] 15 vars[30] 17 </args>
+      <args> vars[30] 15 vars[29] 17 </args>
+      <args> vars[30] 15 vars[31] 17 </args>
+      <args> vars[31] 15 vars[30] 17 </args>
+      <args> vars[32] 15 vars[33] 17 </args>
+      <args> vars[33] 15 vars[32] 17 </args>
+    </group>
+  </constraints>
+</instance>

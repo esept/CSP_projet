@@ -1,0 +1,496 @@
+{
+  "volumes": [
+    1304,
+    793,
+    376,
+    1465,
+    0,
+    2030,
+    920,
+    1384,
+    802,
+    0,
+    0,
+    1269,
+    1172,
+    688,
+    880
+  ],
+  "conflicts": [
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      9,
+      12
+    ],
+    [
+      10,
+      13
+    ]
+  ],
+  "tanks": [
+    {
+      "capacity": 401,
+      "impossibleCargos": [
+        4,
+        7,
+        11
+      ],
+      "neighbors": [
+        20,
+        13
+      ]
+    },
+    {
+      "capacity": 723,
+      "impossibleCargos": [
+        5,
+        7
+      ],
+      "neighbors": [
+        17,
+        5,
+        4,
+        22,
+        18
+      ]
+    },
+    {
+      "capacity": 415,
+      "impossibleCargos": [
+        1,
+        8,
+        12,
+        14
+      ],
+      "neighbors": [
+        16,
+        20,
+        13,
+        19,
+        3,
+        18,
+        12,
+        24,
+        15,
+        14,
+        9,
+        10
+      ]
+    },
+    {
+      "capacity": 589,
+      "impossibleCargos": [
+        0,
+        9,
+        12
+      ],
+      "neighbors": [
+        4,
+        16,
+        2,
+        12,
+        6,
+        23,
+        15,
+        21
+      ]
+    },
+    {
+      "capacity": 328,
+      "impossibleCargos": [
+        0,
+        6,
+        10
+      ],
+      "neighbors": [
+        3,
+        24,
+        21,
+        18,
+        20,
+        1,
+        23
+      ]
+    },
+    {
+      "capacity": 667,
+      "impossibleCargos": [
+        0,
+        2,
+        5,
+        8,
+        10,
+        12
+      ],
+      "neighbors": [
+        21,
+        1,
+        18,
+        6,
+        12,
+        19,
+        9
+      ]
+    },
+    {
+      "capacity": 694,
+      "impossibleCargos": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        14
+      ],
+      "neighbors": [
+        3,
+        5,
+        8,
+        24,
+        11
+      ]
+    },
+    {
+      "capacity": 571,
+      "impossibleCargos": [
+        5,
+        10,
+        12
+      ],
+      "neighbors": [
+        17,
+        10
+      ]
+    },
+    {
+      "capacity": 925,
+      "impossibleCargos": [
+        3,
+        4,
+        10,
+        11
+      ],
+      "neighbors": [
+        19,
+        22,
+        9,
+        24,
+        17,
+        23,
+        6
+      ]
+    },
+    {
+      "capacity": 744,
+      "impossibleCargos": [
+        2,
+        4,
+        9,
+        12
+      ],
+      "neighbors": [
+        8,
+        16,
+        12,
+        22,
+        2,
+        5,
+        11
+      ]
+    },
+    {
+      "capacity": 325,
+      "impossibleCargos": [
+        3,
+        8
+      ],
+      "neighbors": [
+        18,
+        22,
+        20,
+        7,
+        21,
+        2
+      ]
+    },
+    {
+      "capacity": 319,
+      "impossibleCargos": [
+        1,
+        2,
+        12,
+        13,
+        14
+      ],
+      "neighbors": [
+        14,
+        21,
+        6,
+        9
+      ]
+    },
+    {
+      "capacity": 217,
+      "impossibleCargos": [
+        0,
+        1,
+        13
+      ],
+      "neighbors": [
+        14,
+        21,
+        13,
+        3,
+        9,
+        2,
+        5
+      ]
+    },
+    {
+      "capacity": 905,
+      "impossibleCargos": [
+        2,
+        4,
+        9,
+        13,
+        14
+      ],
+      "neighbors": [
+        2,
+        12,
+        0
+      ]
+    },
+    {
+      "capacity": 419,
+      "impossibleCargos": [
+        1,
+        4,
+        12
+      ],
+      "neighbors": [
+        11,
+        18,
+        12,
+        24,
+        2
+      ]
+    },
+    {
+      "capacity": 582,
+      "impossibleCargos": [
+        9,
+        10
+      ],
+      "neighbors": [
+        2,
+        3
+      ]
+    },
+    {
+      "capacity": 644,
+      "impossibleCargos": [
+        7,
+        11
+      ],
+      "neighbors": [
+        22,
+        3,
+        2,
+        9,
+        20,
+        23,
+        17
+      ]
+    },
+    {
+      "capacity": 831,
+      "impossibleCargos": [
+        4,
+        5
+      ],
+      "neighbors": [
+        1,
+        7,
+        8,
+        22,
+        16,
+        23
+      ]
+    },
+    {
+      "capacity": 511,
+      "impossibleCargos": [
+        2,
+        4,
+        6,
+        9,
+        10
+      ],
+      "neighbors": [
+        14,
+        10,
+        4,
+        24,
+        5,
+        2,
+        21,
+        19,
+        1
+      ]
+    },
+    {
+      "capacity": 976,
+      "impossibleCargos": [
+        4,
+        5,
+        10,
+        13,
+        14
+      ],
+      "neighbors": [
+        8,
+        2,
+        18,
+        5
+      ]
+    },
+    {
+      "capacity": 284,
+      "impossibleCargos": [
+        2,
+        7,
+        9
+      ],
+      "neighbors": [
+        2,
+        4,
+        23,
+        16,
+        10,
+        0
+      ]
+    },
+    {
+      "capacity": 269,
+      "impossibleCargos": [
+        3,
+        11
+      ],
+      "neighbors": [
+        11,
+        4,
+        12,
+        5,
+        24,
+        18,
+        10,
+        3
+      ]
+    },
+    {
+      "capacity": 798,
+      "impossibleCargos": [
+        3,
+        4,
+        7,
+        14
+      ],
+      "neighbors": [
+        16,
+        8,
+        10,
+        17,
+        1,
+        9
+      ]
+    },
+    {
+      "capacity": 731,
+      "impossibleCargos": [
+        2,
+        3,
+        14
+      ],
+      "neighbors": [
+        8,
+        20,
+        4,
+        3,
+        16,
+        24,
+        17
+      ]
+    },
+    {
+      "capacity": 464,
+      "impossibleCargos": [
+        2,
+        3,
+        8,
+        9
+      ],
+      "neighbors": [
+        4,
+        8,
+        18,
+        14,
+        21,
+        6,
+        2,
+        23
+      ]
+    }
+  ]
+}
